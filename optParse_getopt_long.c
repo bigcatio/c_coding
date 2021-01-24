@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <getopt.h>
+#include <unistd.h>
 
 /* Flag set by ‘--verbose’. */
 static int verbose_flag;
-opterr = 1;
 int main(int argc, char **argv)
 {
     int c;
